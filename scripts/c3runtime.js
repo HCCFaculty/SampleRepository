@@ -3169,11 +3169,13 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		{Fade: 0},
 		{TutorialText: 0},
 		{TutorialTextBackground: 0},
+		{Text: 0},
 		{Speed: 0},
 		{Crash: 0},
 		{ProgressBarSpeed: 0},
 		{ProgressBarWidth: 0},
 		{TutorialSeen: 0},
+		{Timer: 0},
 		{Color: 0},
 		{QNumber: 0},
 		{TextPosition: 0},
@@ -3378,8 +3380,8 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 			return () => v0.GetValue();
 		},
 		() => 0,
-		() => 100,
 		() => 500,
+		() => 100,
 		() => 1708,
 		p => {
 			const n0 = p._GetNode(0);
@@ -3442,7 +3444,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 			return () => (n0.ExpObject() + 20);
 		},
 		() => "Restart",
-		() => "Timer",
+		() => "ProgressBar",
 		() => 486,
 		() => 0.125,
 		() => -1,
